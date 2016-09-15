@@ -179,7 +179,6 @@ $(window).ready(function() {
             "itemsDesktopSmall" : [980,3],
             "itemsTablet": [768,1],
             "itemsMobile" : [479,1],
-            
             "stopOnHover" : true,
             "responsive": true,
             "loop": true,
@@ -200,7 +199,16 @@ $(window).ready(function() {
         responsive: true,
         loop: true,
         rewindNav: true,
+        navigation: false,
+        pagination: false,
     });
+    
+    $(".post_nav_right").click(function(){
+        owlTab.trigger('owl.next');
+    })
+    $(".post_nav_left").click(function(){
+        owlTab.trigger('owl.prev');
+    })
     
     /* Video Background */
     
