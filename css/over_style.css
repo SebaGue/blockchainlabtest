@@ -1,0 +1,381 @@
+.well-come {
+    color: #4d4d4d!important;
+}
+.well-come img {
+    width: 100%;
+    max-width: 500px;
+}
+.intro-message {
+    color: #4d4d4d;
+}
+#play-video.control-play, #play-video.control-pause{
+    cursor:pointer;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+#play-video.control-play:hover, #play-video.control-pause:hover{
+    -ms-transform: rotate(7deg); 
+    -webkit-transform: rotate(7deg); 
+    transform: rotate(7deg);
+}
+.pulse {
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+.macbook-carousel figure {
+    left: 82px;
+    width: 421px;
+    height: 263px;
+}
+.fixed-topnav ~ .section-portfolio {
+    background-color:rgba(255,255,255,0.6);
+}
+.block_logo {
+    position: absolute!important;
+    top: 0px;
+    width: 70px!important;
+    right:0px;
+    padding:0px 0px 10px 10px;
+    border-bottom-left-radius:2em;
+    background:#fff;
+    -moz-transition: all 1s linear!important;
+    -o-transition: all 1s linear!important;
+    -webkit-transition: all 1s linear!important;
+    transition: all 1s linear!important;
+    
+}
+
+.team_filter div{
+    display:inline-block;
+    margin:0px 10px;
+    
+}
+
+.fixed-topnav ~ .section-portfolio {
+    padding-top: 30px;
+}
+.cont_slide_team{
+   
+   
+}
+
+.offer_footer{
+    padding-top:20px;
+    font-size:12px;
+    text-align:right;
+}
+
+.slide_team{
+   padding-right:30px;
+    margin:1px;
+}
+.slide_team img.research{
+    border: 2px solid #91b56b;
+    }
+ 
+.slide_team p.rule.research {
+    color: #91b56b;
+}   
+.slide_team img.council{ 
+     border: 2px solid #c62e56;
+}
+.slide_team p.rule.council {
+    color: #c62e56;
+}
+.slide_team img.multidisciplinare{
+    border: 2px solid #4d91a5;
+}
+.slide_team p.rule.multidisciplinare {
+    color: #4d91a5;
+}
+.slide_team img{
+    height: 100px;
+    border-radius: 20px;
+    margin-right:5px;
+    float:left;
+}
+.slide_team p {
+    margin: 0px;
+    line-height: 1.3;
+}
+.slide_team p.name {
+    color:#4d4d4d;
+}
+.slide_team p.rule {
+    color:#4d4d4d;
+}
+.slide_team p.team_position {
+    color:#4d4d4d;
+    padding-bottom:30px;
+}
+.slide_team img.detail_startup{
+    height:25px;
+    margin:5px;
+    float:right;
+}
+.clear{
+    clear:both;
+    padding: 5px 0px;
+}
+
+.font-20{
+    font-size:20px;
+}
+.service-description {
+    color: #8F8F8F;
+    font-family: 'Dosis',sans-serif;
+    font-size:20px;
+}
+.bg_transparent p {
+    font-family: 'Dosis',sans-serif;
+}
+.section-services i {
+    font-size:20px;
+}
+.tit_bio{
+    
+   padding: 45px 15px 0px 15px; 
+}
+.bio {
+    font-family: 'Dosis',sans-serif;
+    font-size: small;
+    text-align: right;
+    padding: 5px 15px 20px 15px;
+    line-height: 1.3;
+  
+}
+figure.effect-jazz img {
+    opacity: 1;
+}
+.testimonial-photos .photo-hold {
+    margin-bottom:20px;
+}
+.testimonial-photos img:hover{
+    opacity:1;
+}
+.section-testimonials{
+    
+    height:auto;
+}
+.tit_staff {
+    text-transform: uppercase;
+    color: #848484;
+    padding:30px 0px 20px 0px;
+}
+
+.post{
+    padding:10px;
+}
+
+.offers_in{
+    padding:20px;
+    margin:10px;
+    border:1px solid #e2e2e2;
+    -moz-transition: all .7s linear;
+    -o-transition: all .7s linear;
+    -webkit-transition: all .7s linear;
+    transition: all .7s linear;
+}
+.offers_in:hover{
+    border:1px solid #4d4d4d;
+}
+
+.offer_content {
+    line-height: 1.3;
+    padding: 30px 0px 0px 0px;
+}
+
+.offer_title{
+    font-size:20px;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    
+   background:rgba(100,100,100,.8)
+}
+/*
+.ricerca {
+    background-image: url(../images/blockchainlab-logo-dark.png)!important;
+}
+.multidisciplinare {
+    background-image: url(../images/blockchainlab-logo-grey.png)!important;
+}
+.comitato {
+    background-image: url(../images/blockchainlab-logo-blue.png)!important;
+}
+*/
+.see-more-inner{
+    -moz-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+    border:0px!important;
+}
+
+figure.effect-jazz:hover .see-more-inner {
+    background:rgba(100,100,100,0.9);
+    border:0px;
+}
+figure.effect-jazz:hover .block_logo {
+    
+   top:-100px;
+}
+
+.portfolioContainer.grid-4 figure p {
+    font-size: 10px;
+}
+.img_team {
+    max-width: 30px;
+}
+.logo_small {
+    max-width: 50px;
+}
+.topnav .navbar-brand {
+    background-size: 75px 54px;
+}
+.icon-carousel img {
+    height: 35px;
+}
+.testimonial-photos .photo-hold {
+    
+    width: auto;
+    height: auto;
+    
+}
+.cont_loghi{
+    background:rgba(100,100,100,0.5);
+}
+
+.pharse_slide .owl-controls {
+        display:none!important;
+    }
+.footer_img{
+    width:100%;
+}    
+.link_hover:hover i{
+    color:#5299C7;
+    -moz-transition: all .7s linear;
+    -o-transition: all .7s linear;
+    -webkit-transition: all .7s linear;
+    transition: all .7s linear;
+}
+figure.effect-jazz .see-more p {
+    padding: 0px 15px;
+}
+.start_up_img{
+    opacity:1!important;
+}
+.cont_logo_home{
+    display:none;
+}
+.cont_iframe{
+    display:block;
+}
+.portfolioFilter div{
+    display:inline-block;
+}
+.green_link:hover{
+    color:#87B05C!important;
+}
+.red_link:hover{
+    color:#C92C55!important;
+}
+.portfolioContainer.wide.grid-4 figure {
+    width: 18.5%;
+    margin: .5%;
+}
+.portfolioContainer.grid-4 {
+    margin-left: .9%;
+}
+@media only screen and (max-width: 680px){
+.portfolioContainer figure, .portfolioContainer.grid-2 figure, .portfolioContainer.grid-3 figure, .portfolioContainer.grid-4 figure, .portfolioContainer.grid-5 figure, .portfolioContainer.wide figure, .portfolioContainer.wide.grid-2 figure, .portfolioContainer.wide.grid-3 figure, .portfolioContainer.wide.grid-4 figure {
+    width: 95%!important;
+    margin: 1.2% 2%;
+}
+    
+}
+@media only screen and (max-width: 992px) {
+
+.portfolioContainer.wide figure, .portfolioContainer.grid-4 figure, .portfolioContainer.grid-5 figure, .portfolioContainer.wide.grid-4 figure, .portfolioContainer.wide.grid-3 figure {
+    width: 47.3%;
+    margin: 1% 1.2%;
+}
+}
+@media only screen and (max-width: 1400px) {
+.portfolioContainer.grid-4 figure, .portfolioContainer.grid-5 figure, .portfolioContainer.wide.grid-4 figure {
+    margin: .6%;
+    width: 22.9%;
+}
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 568px) { 
+    .cont_loghi h3{
+        font-size:18px;
+    }
+    .bg_transparent p {
+        text-align: justify;
+    }
+    
+    .cont_iframe{
+        display:none;
+    }
+    .cont_logo_home{
+        display:block;
+    }
+    
+    .tit_bio {
+        clear:both;
+        padding:20px 20px 0px 20px;
+    }
+    .bio{
+        clear:both;
+        padding:10px 20px;
+    }
+    .container.services,.section-portfolio {
+        padding-top: 10px!important;
+    }
+    .section-content {
+        padding:10px 0px!important;
+    }
+        .service-description {
+        text-align:justify!important;
+    }
+    .foto {
+        background-position: 0px -108px;
+        padding: 40px 0px!important;
+    }
+    .m-b-30 {
+        margin-bottom: 10px!important;
+    }
+    
+    .portfolioContainer figure:nth-child(even).effect-jazz {
+        background-position: 5% 5%;
+    }
+    
+    .portfolioContainer figure:nth-child(odd) .tit_bio,.portfolioContainer figure:nth-child(odd) .bio {
+        text-align:left!important;
+    }
+    .section-content {
+        padding: 30px 0px 0px 0px!important;
+    }
+    .owl-theme .owl-controls {
+        display:none!important;
+    }
+    .section-call-action h2{
+        font-size: 14px;
+    }
+    .section-testimonials {
+        height: 670px;
+    }
+    .copyright-simple-menu{
+        display:none;
+    }
+}

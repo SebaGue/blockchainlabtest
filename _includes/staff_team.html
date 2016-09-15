@@ -1,0 +1,26 @@
+<div class="cont_slide_team container">
+{% for people in site.data.people %}
+    {% if people.team == 'staff' %}
+        <div class="slide_team">
+            <img src="images/team/{{ people.team }}/{{ people.name | replace: ' ','_'  }}.jpg" alt="{{ people.name }}" class="research">
+        
+            <div class="cont_team_detail">
+                {% if people.startup %}
+                    {% for startup in site.data.startup %}
+                        {% assign logo = people.startup | downcase | replace: ' ','' %}
+                        {% if startup['link'] contains logo %}
+                            <img src="images/logo/logo_{{ startup.['name'] | replace: ' ','' | downcase }}.{{ startup.['extension'] }}" alt="{{ startup.['name'] }}" class="detail_startup">
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}   
+                <div class="clear"></div>
+                <p class="name">{{ people.name }} <a href="{{ people.link }}" target="_blank" class="link_hover"><small><i class="fa fa-linkedin-square"></i></small></a></p>
+                <p class='rule research'>{{ people.ruolo }}</p>
+                <p class='team_position'><small>{{ people.posizione }}</small></p>
+                <div class="clear"></div>
+                </div>
+            <div class="clear"></div>
+        </div>
+    {% endif %}
+{% endfor %}
+</div>

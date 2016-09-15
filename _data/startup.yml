@@ -1,0 +1,44 @@
+# name: Nome startup
+# link: Link startup
+# extension : Estensione file
+# logo --> images/logo/logo_{name | replace: ' ','' | downcase }.{extension}
+
+- name: Wolf of Trading
+  link: http://wolfoftrading.com/
+  extension: png
+
+- name: Oraclize
+  link: http://www.oraclize.it/
+  extension: png
+
+- name: CoinCapital
+  link: http://coincapital.it/
+  extension: png
+
+- name: Green Address
+  link: https://greenaddress.it/it/
+  extension: png
+
+- name: Eternity Wall
+  link: http://eternitywall.it/
+  extension: svg
+
+- name: The Rock Trading
+  link: https://www.therocktrading.com/
+  extension: png
+
+- name: Inbitcoin
+  link: https://inbitcoin.it
+  extension: svg
+
+- name: Crowdaura
+  link: http://www.crowdaura.com/
+  extension: png
+  
+- name: Cryptoclub
+  link: http://cryptoclub.it/
+  extension: png
+  
+- name: Euklid
+  link: https://www.euklid.com/
+  extension: png

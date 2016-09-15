@@ -1,0 +1,48 @@
+<div class="cont_slide_team container" data-plugin-options='{"autoPlay":6000}'>
+{% for people in site.data.people %}
+    {% if people.team == 'resident' %}
+    
+    
+        <div class="slide_team">
+            <img src="images/team/{{ people.team }}/{{ people.name | replace: ' ','_'  }}.jpg" alt="{{ people.name }}" class="council">
+        
+            <div class="cont_team_detail">
+                {% if people.startup %}
+                    {% for startup in site.data.startup %}
+                        {% assign logo = people.startup | downcase | replace: ' ','' %}
+                        {% if startup['link'] contains logo %}
+                            {% if people.startup_link %}
+                                <a href="{{ people.startup_link }}" target="_blank">
+                            {% endif %}
+                            <img src="images/logo/logo_{{ startup.['name'] | replace: ' ','' | downcase }}.{{ startup.['extension'] }}" alt="{{ startup.['name'] }}" class="detail_startup">
+                            
+                            {% if people.startup_link %}
+                                </a>
+                            {% endif %}
+                            
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}   
+                <div class="clear"></div>
+                <p class="name">{{ people.name }} 
+                    <a href="{{ people.link }}" target="_blank" class="link_hover">
+                        <small><i class="fa fa-linkedin-square"></i></small>
+                    </a>
+                    {% if people.twitter %}
+                        <a href="{{ people.twitter }}" target="_blank" class="link_hover">
+                            <small><i class="fa fa-twitter"></i></small>
+                        </a>
+                    {% endif %}
+                </p>
+                <p class='rule council'>{{ people.ruolo }}</p>
+                <p class='team_position'><small>{{ people.posizione }}</small></p>
+                <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+        </div>
+        
+    
+        
+    {% endif %}
+{% endfor %}
+</div>

@@ -1,0 +1,10 @@
+name: Blockchainlab
+rotate_text : velocità, affidabilità, sicurezza, privacy, ricerca, sviluppo, bitcoin
+
+# Site settings
+title:
+  en: Welcome to Blockchainlab
+baseurl: 
+url: http://yourdomain.com/
+permalink: pretty
+future: true

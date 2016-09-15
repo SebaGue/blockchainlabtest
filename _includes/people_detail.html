@@ -1,0 +1,29 @@
+{% for people in site.data.people %}
+    <figure class="effect-jazz {{ people.team }}">
+        <img src="images/team/{{ people.team }}/{{ people.name | replace: ' ','_'  }}.jpg" alt="{{ people.name }}">
+        
+        
+        <figcaption>
+            <div class="see-more">
+                <div class="see-more-inner">
+                {% if people.startup %}
+                    {% for startup in site.data.startup %}
+                        {% assign logo = people.startup | downcase | replace: ' ','' %}
+                        {% if startup['link'] contains logo %}
+                            <h2><img src="images/logo/logo_{{ startup.['name'] | replace: ' ','' | downcase }}.{{ startup.['extension'] }}" alt="{{ startup.['name'] }}" class="start_up_img"></h2>
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}   
+                    
+                <h2>{{ people.name }}</h2>
+                <p>{{ people.ruolo }}</p>
+                <p>{{ people.posizione }}</p>
+                <a href="{{ people.link }}" target="_blank" class="link_hover"><small><i class="fa fa-linkedin-square"></i></small></a>
+                </div>
+            </div>
+        </figcaption>
+        
+        <img src="images/logo/{{ people.team }}.png" class="block_logo">
+        
+    </figure>
+{% endfor %}
