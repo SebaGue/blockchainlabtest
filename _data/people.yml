@@ -7,312 +7,141 @@
 #ruolo: Ruolo nel team
 #posizione: Attuale posizione lavorativa
 
-# RICERCA
+# Staff & Committees
 - name: Giacomo Zucco
   startup:
   startup_link:
   link: https://it.linkedin.com/in/giacomozucco
-  twitter:
-  team: resident
-  ruolo: coordinatore BLOCKCHAINLAB
-  posizione: ex Accenture
+  twitter: https://twitter.com/giacomozucco?lang=en
+  team: staff
+  ruolo: CEO
+  posizione:
 
-- name: Riccardo Casatta
-  startup: Eternity Wall
-  startup_link:
-  link: https://it.linkedin.com/in/riccardocasatta
-  twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: CEO Eternity Wall ex Zurich
-
-- name: Lawrence Nahum
-  startup: GreenAddress
-  startup_link:
-  link: https://uk.linkedin.com/in/lawrencenahum
-  twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: CEO GreenAddress ex Markit
-
-- name: Thomas Bertani
-  startup: Oraclize
-  startup_link:
-  link: https://uk.linkedin.com/in/thomasbertani
-  twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: CEO Oraclize e BitBoat
-
-- name: Franco Cimatti
+- name: Vincenzo Mioccio
   startup:
   startup_link:
-  link: https://it.linkedin.com/in/hostfat
+  link: https://www.linkedin.com/in/vincenzomioccio
   twitter:
   team: staff
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: Pres. Bitcoin Foundation Italia, consulente CryptoClub, moderatore sez. ita bitcointalk.org
-  
-- name: Marco Amadori
-  startup: inbitcoin
-  startup_link: https://inbitcoin.it
-  link: https://it.linkedin.com/in/marco-amadori-3b691223/en
-  twitter: https://twitter.com/mammadori
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: CEO inbitcoin ex Fondazione Bruno Kessler
-  
-- name: Sebastiano Guerzoni
-  startup: inbitcoin
-  startup_link: https://inbitcoin.it
-  link: https://it.linkedin.com/in/sebastiano-guerzoni-13595663/en
-  twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: CFE inbitcoin
+  ruolo: Supporting Functions Director
+  posizione:
 
 - name: Gabriele Domenichini
-  startup: AssoB.IT
+  startup:
   startup_link:
   link: https://it.linkedin.com/pub/gabriele-domenichini/1/451/49
   twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: Presidente AssoB.IT CEO GD3
+  team: staff
+  ruolo: Community Co-Director
+  posizione: 
 
-- name: Antonio Simeone
-  startup: Euklid
-  startup_link:
-  link: https://it.linkedin.com/in/antoniosimeone/en
-  twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: CEO Euklid
-
-- name: Sebastiano Scrofina
-  startup: CoinCapital
-  startup_link:
-  link: https://it.linkedin.com/in/riggasconi
-  twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: CEO CoinCapital ex Dropis
-  
-- name: Luciano Tess
+- name: Simona Macellari
   startup:
   startup_link:
-  link: https://it.linkedin.com/in/ltess
-  twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: Founder BIS CEO Trade_IT
-  
-- name: Davide Laspina
-  startup: Wolf of Trading
-  startup_link:
-  link: https://it.linkedin.com/in/davidelaspina
-  twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: CEO Wolf of Trading
-  
-- name: Francesco Nacchia
-  startup: Energify
-  startup_link:
-  link: https://it.linkedin.com/in/francesconacchia
+  link: https://www.linkedin.com/in/simona-macellari-608152
   twitter:
   team: staff
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: CEO Energify
-  
+  ruolo: Community Co-Director
+  posizione:
+
 - name: Laura Bigi
   startup: 
   startup_link:
   link: https://it.linkedin.com/in/laura-bigi-aa1779b7/en
   twitter:
   team: staff
-  ruolo: assistente area scientifica BLOCKCHAINLAB
+  ruolo: Team Assistant
   posizione: 
-  
-- name: Tobia de Angelis
+
+- name: Mir Liponi
   startup:
   startup_link:
-  link: https://it.linkedin.com/in/tobiadeangelis
-  twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: esperto VC
+  link: https://www.linkedin.com/in/mir-serena-liponi-a8655021
+  twitter: https://twitter.com/mir_serena
+  team: staff
+  ruolo: CCO
+  posizione: 
 
-- name: Simone Conti
-  startup: 
+- name: Isidoro Ghezzi
+  startup:
   startup_link:
-  link: https://it.linkedin.com/in/simone-conti-24416bb3
+  link: https://www.linkedin.com/in/isidoro-ghezzi-1500105
   twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: Family Office and Venture Capital Azimut
+  team: staff
+  ruolo: Blockchain Senior Developer 
+  posizione: 
 
 - name: Andrea Benetton
   startup:
   startup_link:
   link: https://www.linkedin.com/in/andbene
   twitter:
-  team: resident
-  ruolo: ricercatore BLOCKCHAINLAB
-  posizione: Business Analyst
-  
-- name: Marco Corradino
-  startup:
-  startup_link:
-  link: https://it.linkedin.com/in/corradino
-  twitter:
-  team: resident
-  ruolo: 
-  posizione: Presidente Red Pill
+  team: staff
+  ruolo: Knowledge Base Senior Developer
+  posizione:
 
-- name: Cristiano Esclapon
+- name: Alessandro Saglimbeni
   startup:
   startup_link:
-  link: https://it.linkedin.com/pub/cristiano-esclapon/0/99/a94
+  link: https://www.linkedin.com/in/alessandro-saglimbeni-7ab1a0111
   twitter:
   team: staff
-  ruolo: 
-  posizione: Imprenditore e Angel Investor
-    
-- name: Roberto Condulmari
-  startup:
-  startup_link:
-  link: https://it.linkedin.com/pub/roberto-condulmari/23/144/b2b
-  twitter:
-  team: resident
-  ruolo: 
-  posizione: Cofondatore Kairos
-    
-- name: Edilio Rusconi
-  startup:
-  startup_link:
-  link: 
-  twitter:
-  team: staff
-  ruolo: 
-  posizione: Marketing editoriale Comunicazione Editing
-    
-- name: Vito Lomele
-  startup:
-  startup_link:
-  link: https://it.linkedin.com/in/vitolomele
-  twitter:
-  team: resident
-  ruolo: 
-  posizione: CEO jobrapido
-    
-- name: Dario Giudici
-  startup: SiamoSoci
-  startup_link:
-  link: https://it.linkedin.com/pub/dario-giudici/0/97/258
-  twitter:
-  team: staff
-  ruolo: 
-  posizione: Presidente SiamoSoci
-  
-- name: Giovanni Damiani
-  startup:
-  startup_link:
-  link: 
-  twitter:
-  team: resident
-  ruolo: 
-  posizione: Direttore Generale Consorzio Operativo MPS
-  
-- name: Francesco Inguscio
-  startup:
-  startup_link:
-  link: https://it.linkedin.com/in/francescoinguscio
-  twitter:
-  team: resident
-  ruolo: 
-  posizione: CEO Nuovolab
-  
-- name: Emil Abirascid
-  startup:
-  startup_link:
-  link: https://it.linkedin.com/in/emilabirascid
-  twitter:
-  team: resident
-  ruolo: 
-  posizione: Giornalista esperto d’innovazione Fondatore di Startup Business
+  ruolo: Chief Analyst
+  posizione: 
 
-- name: Giorgio Giuliani
+- name: Francesco Nacchia
   startup:
   startup_link:
-  link: https://it.linkedin.com/in/giorgiogiuliani
+  link: https://it.linkedin.com/in/francesconacchia
   twitter:
-  team: resident
-  ruolo: 
-  posizione: Product Manager Wind
-  
-- name: Marina Calcagno
+  team: staff
+  ruolo: Meetup Organizer
+  posizione:
+
+- name: Sebastiano Scrofina
   startup:
   startup_link:
-  link: https://it.linkedin.com/in/marinacalcagnob
+  link: https://it.linkedin.com/in/riggasconi
   twitter:
-  team: resident
-  ruolo: 
-  posizione: General Manager StartMiUp
-  
-- name: Luciano Pietronero
-  startup:
-  startup_link:
-  link: https://it.linkedin.com/in/corradino
-  twitter:
-  team: resident
-  ruolo: 
-  posizione: Fondatore Ist. Sistemi Complessi CNR Professore La Sapienza
-  
-- name: Davide Contini
-  startup:
-  startup_link:
-  link: http://www.grimaldilex.com/gli-avvocati/davide-contini-partner
-  twitter:
-  team: resident
-  ruolo: 
-  posizione: Partner Studio Legale Grimaldi
-  
+  team: staff
+  ruolo: Consultant
+  posizione:
+
 - name: Ferdinando Ametrano
   startup:
   startup_link:
   link: https://it.linkedin.com/in/ferdinandoametrano
   twitter:
-  team: resident
-  ruolo: 
-  posizione: Docente Milano Bicocca Cofondatore AssoB.IT
-  
-- name: Massimo Morini
-  startup:
-  startup_link:
-  link: https://it.linkedin.com/in/massimo-morini-37a3246
-  twitter:
-  team: resident
-  ruolo: 
-  posizione: Banca IMI Docente Politecnico di Milano Senior Consultant Banca Mondiale Board Member Numerix
-  
+  team: staff
+  ruolo: Member of Scientific Committee
+  posizione: 
+
 - name: Giuseppe Cardone
   startup:
   startup_link:
   link: https://www.linkedin.com/in/giuseppe-cardone-5535574
   twitter:
-  team: resident
-  ruolo: 
-  posizione: Intesa Sanpaolo
-  
-- name: Raffaele Mauro
+  team: staff
+  ruolo: Member of Scientific Committee
+  posizione:
+
+- name: Emanuele Carluccio
   startup:
   startup_link:
-  link: https://it.linkedin.com/in/raffaelemauro
+  link: https://it.linkedin.com/pub/emanuele-maria-carluccio/9/7a4/176/it
   twitter:
-  team: resident
-  ruolo: 
-  posizione: Managing Director Endeavor Italy Cofondatore AssoB.IT
+  team: staff
+  ruolo: Member of Scientific Committee
+  posizione:
+
+- name: Massimo Morini
+  startup:
+  startup_link:
+  link: https://it.linkedin.com/in/massimo-morini-37a3246
+  twitter:
+  team: staff
+  ruolo: Member of Scientific Committee 
+  posizione:
 
 - name: Stefano Capaccioli
   startup:
@@ -320,43 +149,233 @@
   link: https://it.linkedin.com/in/capaccioli
   twitter:
   team: staff
-  ruolo: 
-  posizione: Commercialista e Revisore Fondatore Coinlex Cofondatore AssoB.IT
+  ruolo: Member of Scientific Committee 
+  posizione:
+
+- name: Mariano Carozzi
+  startup:
+  startup_link:
+  link: https://it.linkedin.com/in/marianocarozzi
+  twitter:
+  team: staff
+  ruolo: Member of Scientific Committee
+  posizione:
+
+- name: Luciano Pietronero
+  startup:
+  startup_link:
+  link: https://it.linkedin.com/in/corradino
+  twitter:
+  team: staff
+  ruolo: Member of Scientific Committee
+  posizione:
+  
+- name: Giuseppe Vaciago
+  startup:
+  startup_link:
+  link: https://it.linkedin.com/in/vaciago
+  twitter:
+  team: staff
+  ruolo: Member of Scientific Committee
+  posizione:
 
 - name: Ivan Vaghi
   startup:
   startup_link:
   link: https://it.linkedin.com/in/ivanvaghi
   twitter:
-  team: resident
-  ruolo: 
-  posizione: Imprenditore seriale Cofondatore AssoB.IT
+  team: staff
+  ruolo: Member of Scientific Committee 
+  posizione:
 
-- name: Emanuele Carluccio
+- name: Cristiano Esclapon
   startup:
   startup_link:
-  link: https://it.linkedin.com/pub/emanuele-maria-carluccio/9/7a4/176/it
+  link: https://it.linkedin.com/pub/cristiano-esclapon/0/99/a94
   twitter:
-  team: resident
-  ruolo: 
-  posizione: Consigliere Eurizon Capital Professore Università di Verona Docente Senior SDA Bocconi
-  
-- name: Mariano Carozzi
-  startup:
-  startup_link:
-  link: https://it.linkedin.com/in/marianocarozzi
-  twitter:
-  team: resident
-  ruolo: 
-  posizione: Responsabile innovazione Extra Banca Direttore Symbid Italia. Cofondatore AssoB.IT
+  team: staff
+  ruolo: Member of Scientific Committee
+  posizione:
 
-- name: Giuseppe Vaciago
-  startup:
-  startup_link:
-  link: https://it.linkedin.com/in/vaciago
+# Resident & Visiting Experts
+
+- name: Riccardo Casatta
+  startup: Eternity Wall
+  startup_link: http://eternitywall.it/
+  link: https://it.linkedin.com/in/riccardocasatta
   twitter:
   team: resident
-  ruolo: 
-  posizione: Partner R&P Legal
+  ruolo: Eternity Wall CEO
+  posizione:
+
+- name: Lawrence Nahum
+  startup: GreenAddress
+  startup_link: https://greenaddress.it/it/
+  link: https://uk.linkedin.com/in/lawrencenahum
+  twitter:
+  team: resident
+  ruolo: Green Address CEO
+  posizione:
+
+- name: Thomas Bertani
+  startup: Oraclize
+  startup_link: http://www.oraclize.it/
+  link: https://uk.linkedin.com/in/thomasbertani
+  twitter:
+  team: resident
+  ruolo: Oraclize CEO
+  posizione:
+
+- name: Marco Giglio
+  startup:
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Oraclize
+  posizione:
   
+- name: Marco Amadori
+  startup: inbitcoin
+  startup_link: https://inbitcoin.it
+  link: https://it.linkedin.com/in/marco-amadori-3b691223/en
+  twitter: https://twitter.com/mammadori
+  team: resident
+  ruolo: CEO inbitcoin
+  posizione: 
   
+- name: Sebastiano Guerzoni
+  startup: inbitcoin
+  startup_link: https://inbitcoin.it
+  link: https://it.linkedin.com/in/sebastiano-guerzoni-13595663/en
+  twitter:
+  team: resident
+  ruolo: CFE inbitcoin
+  posizione: 
+
+- name: Martino Salvetti
+  startup: inbitcoin
+  startup_link: https://inbitcoin.it
+  link: https://www.linkedin.com/in/martino-salvetti-470755112/en
+  twitter:
+  team: resident
+  ruolo: TLDR inbitcoin
+  posizione: 
+  
+- name: Davide Laspina
+  startup: Wolfway
+  startup_link: https://wolfway.co/it/
+  link: https://it.linkedin.com/in/davidelaspina
+  twitter:
+  team: resident
+  ruolo: CEO Wolfway 
+  posizione: 
+
+- name: Federico Tenga
+  startup: Chainside
+  startup_link: https://www.linkedin.com/company/chainside
+  link: https://www.linkedin.com/in/ftenga
+  twitter:
+  team: resident
+  ruolo: Chainside Cofounder
+  posizione:
+
+- name: Elisabeth Stark
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Lightning labs Cofounder
+  posizione:
+
+- name: Joseph Poon 
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Lightning labs Cofounder
+  posizione:
+
+- name: Tadge Dryja
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Lightning labs Cofounder
+  posizione:
+
+- name: Andreas Antonopoulos
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Third Key Solutions CTO
+  posizione:
+
+- name: Peter Todd
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Core developer 
+  posizione:
+
+- name: Manfred Karrer
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Bitsquare CEO
+  posizione:
+
+- name: Franco Cimatti
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Bitcoin Foundation Italia President
+  posizione:
+
+- name: John Lindsay
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Bitwage CEO
+  posizione:
+
+- name: Jameson Lopp
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Bitgo Engineer
+  posizione:
+
+- name: Matt Corallo
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Core Developer
+  posizione:
+
+- name: Francis Pouliot
+  startup: 
+  startup_link:
+  link:
+  twitter:
+  team: resident
+  ruolo: Bitcoin Embassy Montreal
+  posizione:
+

@@ -3,8 +3,12 @@
 # extension : Estensione file
 # logo --> images/logo/logo_{name | replace: ' ','' | downcase }.{extension}
 
-- name: Wolf of Trading
-  link: http://wolfoftrading.com/
+- name: Wolfway
+  link: https://wolfway.co/it/
+  extension: png
+
+- name: Chainside
+  link: https://www.linkedin.com/company/chainside
   extension: png
 
 - name: Oraclize

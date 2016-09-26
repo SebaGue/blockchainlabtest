@@ -4,7 +4,7 @@
     
     
         <div class="slide_team">
-            <img src="images/team/{{ people.team }}/{{ people.name | replace: ' ','_'  }}.jpg" alt="{{ people.name }}" class="council">
+            <img src="images/team/{{ people.team }}/{{ people.name | replace: ' ','_'  }}.jpg" alt="{{ people.name }}" class="research">
         
             <div class="cont_team_detail">
                 {% if people.startup %}
@@ -25,16 +25,19 @@
                 {% endif %}   
                 <div class="clear"></div>
                 <p class="name">{{ people.name }} 
+		{% if people.link %}
                     <a href="{{ people.link }}" target="_blank" class="link_hover">
                         <small><i class="fa fa-linkedin-square"></i></small>
                     </a>
+		{% endif %}
+			
                     {% if people.twitter %}
                         <a href="{{ people.twitter }}" target="_blank" class="link_hover">
                             <small><i class="fa fa-twitter"></i></small>
                         </a>
                     {% endif %}
                 </p>
-                <p class='rule council'>{{ people.ruolo }}</p>
+                <p class='rule research'>{{ people.ruolo }}</p>
                 <p class='team_position'><small>{{ people.posizione }}</small></p>
                 <div class="clear"></div>
                 </div>
