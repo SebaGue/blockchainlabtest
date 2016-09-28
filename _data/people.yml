@@ -207,7 +207,16 @@
   team: resident
   ruolo: Eternity Wall CEO
   posizione:
-
+  
+- name: Luca Vaccaro
+  startup: Eternity Wall
+  startup_link: http://eternitywall.it/
+  link:
+  twitter:
+  team: resident
+  ruolo: Eternity Wall
+  posizione:
+  
 - name: Lawrence Nahum
   startup: GreenAddress
   startup_link: https://greenaddress.it/it/

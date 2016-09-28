@@ -1,7 +1,7 @@
 ---
 title: Next Milano Bitcoin Meetup will be on 11th October
 introduction: Next Milano Bitcoin Meetup will be on 11th October
-image: /slider/next_meetup.png
+image: /slider/next_meetup.jpg
 image_desc: Next Milano Bitcoin Meetup will be on 11th October
 tag: meetup, Milano
 ---

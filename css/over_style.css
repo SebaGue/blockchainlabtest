@@ -62,9 +62,25 @@
 .fixed-topnav ~ .section-portfolio {
     padding-top: 30px;
 }
-.cont_slide_team{
-   
-   
+.grey{
+   -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.offer_title b {
+    text-transform: uppercase;
+    font-family: 'Dosis',sans-serif;
+    letter-spacing: 3px;
+}
+
+
+.post .post-thumbnail figure {
+    max-height: 250px;
+}
+
+
+.post .post-title {
+    margin-top: 20px;
 }
 
 .offer_footer{
@@ -85,10 +101,10 @@
     color: #91b56b;
 }   
 .slide_team img.council{ 
-     border: 2px solid #c62e56;
+     border: 2px solid #91b56b;
 }
 .slide_team p.rule.council {
-    color: #c62e56;
+    color: #91b56b;
 }
 .slide_team img.multidisciplinare{
     border: 2px solid #4d91a5;
@@ -99,7 +115,6 @@
 .slide_team img{
     height: 100px;
     border-radius: 20px;
-    margin-right:5px;
     float:left;
 }
 .slide_team p {
