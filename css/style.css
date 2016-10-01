@@ -774,7 +774,7 @@ html{height:100%}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Roboto",
 #page .topnav.fixed-topnav {  position: relative !important;}
 
 .foto {
-  background-image: url(../images/bg/blockchain-chain.jpg);
+  background-image: url(../images/blockchainlab-logo-new.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -785,7 +785,7 @@ html{height:100%}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{font-family:"Roboto",
 @media (min-width: 768px) {
 
 .foto {
-  background-image: url(../images/bg/blockchain-chain.jpg);
+  background-image: url(../images/blockchainlab-logo-new.png);
   background-position: center;
   background-attachment: fixed; /*togliere questo per non far muovere la foto*/
   background-repeat: no-repeat;

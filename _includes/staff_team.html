@@ -11,9 +11,11 @@
                   
                 <div class="clear"></div>
                 <p class="name">{{ people.name }} 
+                {% if people.link %}
                     <a href="{{ people.link }}" target="_blank" class="link_hover">
                         <small><i class="fa fa-linkedin-square"></i></small>
                     </a>
+                    {% endif %}
                     {% if people.twitter %}
                         <a href="{{ people.twitter }}" target="_blank" class="link_hover">
                             <small><i class="fa fa-twitter"></i></small>
